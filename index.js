@@ -8,8 +8,8 @@ function registerCash(itemsPrice, payment) {
     for(let i of itemsPrice) total += i;
 
     if(payment === total) return "NOT CHANGE BACK"
-    if(payment < total) return "Need more money"
-    if(payment > total) return "take your change, " + (payment - total) + " dollars" 
+    if(payment < total) return "NEED MORE MONEY"
+    if(payment > total) return "TAKE YOUR CHANGE, " + (payment - total) + " DOLLARS" 
 
 }
 
